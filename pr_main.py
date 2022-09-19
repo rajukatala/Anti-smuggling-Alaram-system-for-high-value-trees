@@ -98,7 +98,7 @@ client.on_connect = on_connect
 client.on_message = on_message
 client.connect(broker_url, broker_port)
 
-client.subscribe("test_topic", qos=1)
+client.subscribe("test_topic", qos=2)
 
 
 
